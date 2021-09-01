@@ -1,0 +1,19 @@
+.sign-in {
+  //   background-color: aqua;
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+
+  & h2 {
+    font-size: 30px;
+  }
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
